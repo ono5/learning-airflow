@@ -51,3 +51,9 @@ $ airflow tasks test user_processing create_table 2022-01-01
 ```
 ## Local Stack
 [localstack/localstack](https://github.com/localstack/localstack)
+
+## Schedulers
+* start_date: The timestamp from which the scheduler will attempt to backfill
+* schedule_interval: How often a DAG runs
+* end_date: The timestamp from which a DAG ends
+
